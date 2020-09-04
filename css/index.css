@@ -147,14 +147,12 @@ footer nav a {
 }
 
 header{
-    border:1px solid grey;
     display: flex;
     justify-content:space-between;
 
 }
 
 header nav{
-    border:1px solid grey;
     display:flex;
     align-items:center;
     margin-top:2%;
