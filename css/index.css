@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -87,7 +88,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+   border-bottom: 1px dashed black; 
 }
 
 .middle-content h2 {
@@ -144,3 +145,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    border:1px solid grey;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+header nav{
+    border:1px solid grey;
+    display:flex;
+    align-items:center;
+    margin-top:2%;
+    justify-content:space-between;
+    width:75%
+    
+}
+
+header nav a{
+    text-decoration:none;
+    color:black;
+}
+.jumbo{
+    padding-top:3%;
+}
+
