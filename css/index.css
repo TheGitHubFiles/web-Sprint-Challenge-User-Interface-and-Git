@@ -131,6 +131,7 @@ footer {
     width: 100%;
     background: black;
 }
+/* nav styles */
 
 footer nav {
     width: 60%;
@@ -149,7 +150,7 @@ footer nav a {
 header{
     display: flex;
     justify-content:space-between;
-
+    padding-top:2%;
 }
 
 header nav{
@@ -157,17 +158,18 @@ header nav{
     align-items:center;
     margin-top:2%;
     justify-content:space-between;
-    width:75%
-    
+    width:75%   
 }
 
 header nav a{
     text-decoration:none;
     color:black;
 }
+/* home page styles */
 
 .jumbo{
     padding-top:3%;
+    padding-bottom:3%;
 }
 
 .boxes .box:nth-child(1){
@@ -209,5 +211,54 @@ header nav a{
 .boxes .box:nth-child(10){
     background-color:dodgerblue;
 }
+/* about page styles */
 
+.mid-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 6%;
+    justify-content: space-between;
+}
 
+.mid-container div{
+    width:48%;
+    margin:2% 0; 
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;  
+}
+
+.mid-container div img{
+    width:100%
+}
+
+.mid-container div a{
+    border:1px solid black;
+    text-decoration:none;
+    padding:2% 3%;
+    border-radius:10px;
+    color:black;
+    width:10%   
+}
+
+.top{
+    padding-bottom:2%;
+    width:100%;
+}
+
+.top h3 {
+    padding:0 3%;
+}
+.top p{
+    padding:0 3%;
+}
+
+.top{
+    border-bottom: 1px dashed black;
+    margin:3%;
+}
+
+.end-text{
+    margin:2%;
+    padding:0 4%;
+}
+    
